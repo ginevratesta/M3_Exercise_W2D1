@@ -10,3 +10,13 @@
     margin-top: 20px;
     height: 35px;
 }
+
+.card-img-top.img-fluid{
+    height: 200px; 
+    object-fit: cover;
+}
+
+.img-fluid.rounded-start{
+    height:100%; 
+    object-fit:cover;
+}
