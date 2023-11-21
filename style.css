@@ -2,4 +2,11 @@
     border-radius: 150px;
     padding-block: 5px;
     margin-top: 20px;
+    height: 35px;
+}
+
+.btn.btn-danger.dropdown-toggle{
+    border-radius: 100px;
+    margin-top: 20px;
+    height: 35px;
 }
