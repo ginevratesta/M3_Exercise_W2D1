@@ -1,22 +1,30 @@
-.btn.btn-warning.play-button{
-    border-radius: 100px;
-    padding-block: 5px;
-    margin-top: 20px;
-    height: 35px;
+.btn.btn-warning.play-button {
+  border-radius: 100px;
+  padding-block: 5px;
+  margin-top: 20px;
+  height: 35px;
 }
 
-.btn.btn-danger.dropdown-toggle{
-    border-radius: 100px;
-    margin-top: 20px;
-    height: 35px;
+.btn.btn-danger.dropdown-toggle {
+  border-radius: 100px;
+  margin-top: 20px;
+  height: 35px;
 }
 
-.card-img-top.img-fluid{
-    height: 200px; 
-    object-fit: cover;
+.card-img-top.img-fluid {
+  height: 200px;
+  object-fit: cover;
 }
 
-.img-fluid.rounded-start{
-    height:100%; 
-    object-fit:cover;
+.img-fluid.rounded-start {
+  height: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --bs-warning-bg-subtle: #81a4cd;
+}
+
+:root {
+  --bs-primary: #3e7cb1;
 }
