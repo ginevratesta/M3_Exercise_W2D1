@@ -13,33 +13,232 @@
     <title>FavMusic</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg d-flex align-items-center py-3">
+    <nav class="sticky-top navbar navbar-expand-lg d-flex align-items-center py-3">
         <div class="container-fluid">
           <h3 class="mt-1 ms-4">FavMusic</h3>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link text-white" aria-current="page" href="#albums">Albums</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#last-love">Last Love</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Varaiety
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Pop</a></li>
+                  <li><a class="dropdown-item" href="#mix">Mixed Genres</a></li>
+                  <li><a class="dropdown-item" href="#alt-indie">Alternative/Indie</a></li>
                   <li><a class="dropdown-item" href="#">Rock</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Phonk</a></li>
+                  <li><a class="dropdown-item" href="#last-love">Last Love</a></li>
                 </ul>
           </div>
         </div>
       </nav>
+      <div id="albums" class="container my-5">
+        <h3>ALBUMS</h3>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/unlike-pluto.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Album:</b> Pluto Tapes: Volume 2</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Unlike Pluto</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Electropop</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 43 minutes</li>
+                    </ul>
+                    <audio src="./music/Unlike Pluto - JOLT.mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/queen.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Album:</b> Greatest hits</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Queen</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Progressive rock</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 58 minutes</li>
+                    </ul>
+                    <audio src="./music/Queen – Bohemian Rhapsody (Official Video Remastered).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/fall-out-boy.jpg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Album:</b> American Beauty</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Fall Out Boy</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Pop/Rock</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 39 minutes</li>
+                    </ul>
+                    <audio src="./music/Fall Out Boy - Centuries (Lyrics).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/Fine-Line.jpg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Album:</b> Fine Line</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Harry Styles</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Pop</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 46 minutes</li>
+                    </ul>
+                    <audio src="./music/Harry Styles - Adore You (Official Audio).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div id="mix" class="container my-5">
+        <h3 >MIXED GENRES</h3>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/ayybo.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> BASS GLYDE</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> AYYBO</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Electro/Dance</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 2.39 minutes</li>
+                    </ul>
+                    <audio src="./music/AYYBO - BASS GLIDE.mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/hollywood.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> Everywhere I Go</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Hollywood Undead</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Alternative/Indie</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 3.31 minutes</li>
+                    </ul>
+                    <audio src="./music/Hollywood Undead - Everywhere I Go [Lyrics].mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/kool-kids.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> KOOL KIDS</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Måneskin</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Alternative/Indie</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 2.43 minutes</li>
+                    </ul>
+                    <audio src="./music/Måneskin - KOOL KIDS (Lyric Video).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/bad-omens.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> The Death of Peace of Mind</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Bad Omens</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> JapRock/Metal</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 4 minutes</li>
+                    </ul>
+                    <audio src="./music/Bad Omens - The Death Of Peace Of Mind (Lyrics) 🎵.mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div id="alt-indie" class="container my-5">
+        <h3>ALTERNATIVE/INDIE</h3>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/hollywood.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> Everywhere I Go</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Hollywood Undead</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Alternative/Indie</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 3.31 minutes</li>
+                    </ul>
+                    <audio src="./music/Hollywood Undead - Everywhere I Go [Lyrics].mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/kool-kids.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> KOOL KIDS</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Måneskin</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Alternative/Indie</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 2.43 minutes</li>
+                    </ul>
+                    <audio src="./music/Måneskin - KOOL KIDS (Lyric Video).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/hozier.jpeg" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Song:</b> Eat Your Young</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Hozier</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Alternative/Indie</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 4.04 minutes</li>
+                    </ul>
+                    <audio src="./music/Hozier - Eat Your Young (Official Lyric Video).mp3" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/" class="card-img-top img-fluid" alt="album cover"/>
+              <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item text-truncate"><b>Album:</b> Fine Line</li>
+                      <li class="list-group-item text-truncate"><b>Author:</b> Harry Styles</li>
+                      <li class="list-group-item text-truncate"><b>Genre:</b> Pop</li>
+                      <li class="list-group-item text-truncate"><b>Duration:</b> 46 minutes</li>
+                    </ul>
+                    <audio src="./music/" class="audio-player"></audio>
+                    <button class="btn btn-warning play-button">Play</button>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
       <div id="albums" class="container my-5">
         <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
           <div class="col">
@@ -105,7 +304,9 @@
           
         </div>
       </div>
-      <div class="card m-5" id="last-love">
+      <div class="container">
+        <h3>LAST LOVE</h3>
+      <div class="card" id="last-love">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="./assets/DuaLipa.webp" class="img-fluid rounded-start" alt="Album cover">
@@ -135,8 +336,7 @@
           </div>
         </div>
       </div>
-          
-      
+      </div>
       </div>
       
     <script src="./script.js"></script>

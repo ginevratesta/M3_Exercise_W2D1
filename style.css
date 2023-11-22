@@ -4,7 +4,12 @@ body{
     background-repeat: no-repeat;
 }
 
-nav h3 {
+nav{
+  background-image: url("./assets/yellow.jpeg");
+    background-size: cover;
+}
+
+nav h3, .container h3{
     color:#BA43BF;
     font-weight: 800;
 }
@@ -12,12 +17,6 @@ nav h3 {
 .btn.btn-warning.play-button {
   border-radius: 100px;
   padding-block: 5px;
-  margin-top: 20px;
-  height: 35px;
-}
-
-.btn.btn-danger.dropdown-toggle {
-  border-radius: 100px;
   margin-top: 20px;
   height: 35px;
 }
