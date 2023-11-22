@@ -1,24 +1,22 @@
-body{
-    background-image: url("./assets/yellow.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-nav{
+body {
   background-image: url("./assets/yellow.jpeg");
-    background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-nav h3, .container h3{
-    color:#BA43BF;
-    font-weight: 800;
+nav {
+  background-image: url("./assets/yellow.jpeg");
+  background-size: cover;
+}
+
+nav h3,
+.container h3 {
+  color: #ba43bf;
+  font-weight: 800;
 }
 
 .btn.btn-warning.play-button {
   border-radius: 100px;
-  padding-block: 5px;
-  margin-top: 20px;
-  height: 35px;
 }
 
 .card-img-top.img-fluid {
@@ -31,19 +29,20 @@ nav h3, .container h3{
   object-fit: cover;
 }
 
-.card, .card li {
-    color:white;
-    background-color: transparent;
-    border-color: #e89dea;
+.card,
+.card li {
+  color: white;
+  background-color: transparent;
+  border-color: #e89dea;
 }
 
-.btn.btn-warning.play-button{
-    border: none;
-    background-color: #BA43BF;
-    color: white;
-    width: 100%;
+.btn.btn-warning.play-button {
+  border: none;
+  background-color: #ba43bf;
+  color: white;
+  width: 100%;
 }
 
-.btn.btn-warning.play-button:hover{
-    background-color: #D93E8B;
+.btn.btn-warning.play-button:hover {
+  background-color: #d93e8b;
 }
