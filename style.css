@@ -1,3 +1,14 @@
+body{
+    background-image: url("./assets/yellow.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav h3 {
+    color:#BA43BF;
+    font-weight: 800;
+}
+
 .btn.btn-warning.play-button {
   border-radius: 100px;
   padding-block: 5px;
@@ -21,10 +32,19 @@
   object-fit: cover;
 }
 
-:root {
-  --bs-warning-bg-subtle: #81a4cd;
+.card, .card li {
+    color:white;
+    background-color: transparent;
+    border-color: #e89dea;
 }
 
-:root {
-  --bs-primary: #3e7cb1;
+.btn.btn-warning.play-button{
+    border: none;
+    background-color: #BA43BF;
+    color: white;
+    width: 100%;
+}
+
+.btn.btn-warning.play-button:hover{
+    background-color: #D93E8B;
 }
